@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+.nex_bkjsbg_topimg{ width:100%; height:80px; padding-top:51px;}
+.nex_bkjsbg_topnone{ height:48px;}
+.nex_bbsiners{ padding:10px;height:35px;z-index:4; position:relative; background:#fff;}
+.nex_bbslist_icon{ width: 35px; height:35px; border:2px solid  #fff;border-radius:2px; float:left;}
+.nex_bbslist_icon img{ width:100%; height:100%;border-radius:2px;}
+.nex_bbslist_infos{ padding-left: 55px; height:35px; line-height:35px;}
+.nex_bbslist_infos p{  font-size: 14px;color:#666; height:35px; line-height:35px; overflow:hidden;}
+.nex_bbslist_infos p span{ margin-right:5px; font-weight:500;}
+
+.nex_bbslist_infos a.nex_sc{ display:block; height:22px; line-height:22px; font-size:12px; text-align:center; color:#fff; border:2px solid #F39A07; position: absolute; border-radius:2px; top: 14px;  right:11px;}
+#number_favorite_num{ display:inline-block;padding: 0 10px; float:left; background:#fff;height:22px; line-height:22px;font-size:12px; text-align:center; color:#F39A07; }
+#number_favorite{display:inline-block; padding: 0 10px;float:right;background:#F39A07;height:22px; line-height:22px;font-size:12px; text-align:center; color:#fff; }
+.nex_bbs_top_select{ display: block; height: 40px; line-height: 40px;background:#f7f7f7;border-bottom:1px solid #fefefe; font-size: 16px; text-align: center;}
+.nex_bbs_top_select ul{ }
+.nex_bbs_top_select ul li{ float: left; width:25%;height: 40px; line-height: 40px;}
+.nex_bbs_top_select ul li a{  display: block; height: 40px;line-height: 40px; padding: 0;  color: #333; font-size: 14px; position: relative; letter-spacing:2px; }
+.nex_bbs_top_select ul li a:after{ display:block; content:''; width:20px; height:2px; background:#F39A07; position:absolute; top:40px; left:39%; opacity:0;}
+.nex_bbs_top_select ul li a em{ display:block; width:20px; height:2px; opacity:0; position:absolute; top:38px; left:37%; z-index:10;}
+.nex_bbs_top_select ul li a.on{ color: #F39A07;font-weight:400;}
+.nex_bbs_top_select ul li a.on:after{ opacity:1;}
+.nex_bbs_top_select ul li.a a{ color: #F39A07;font-weight:500;}
+.nex_bbs_top_select ul li.a a em{ opacity:1; background:#F39A07;}
+
+
+
+.nex_count_forumlists{ position: absolute; top: 10px; right: 0;}
+.nex_count_forumlists span{ display:inline-block; padding-left:20px; margin-right: 10px;  line-height: 20px;  height: 20px;font-size: 12px;color:#bbb; }
+.nex_count_forumlists span.views{ background:url(../bbs/view_po.png) left center no-repeat; background-size:16px; max-width: 26px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.nex_count_forumlists span.replies{ background:url(../bbs/reply_po.png) left center no-repeat;background-size:16px;max-width: 26px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right:0;}
+
+.nex_Digests{}
+.nex_sub_bk{ padding:5px 15px 0 15px; background:#fff; border-bottom:1px solid #eee;}
+.nex_sub_bk h5{padding:0 15px;font-size:18px; font-weight:400;height:40px;line-height:40px;border-bottom:solid 1px #eee;color:#333; background:#fff url(../bbs/type.png) 0px center no-repeat; padding-left:30px; background-size:25px;}
+.nex_sub_bk ul{ background:#fff; padding:15px 0 0 0; width:105%;}
+.nex_sub_bk li{float: left; width: 45%; height: 47px; margin: 0 15px 15px 0; }
+.nex_sub_list_Icon{float:left; width:40px; height:40px;}
+.nex_sub_list_Icon a{}
+.nex_sub_list_Icon a img{ width:40px; height:40px; border-radius:4px;}
+.nex_sub_list_Names{}
+.nex_sub_list_Names a{ display:block;float:left; margin-left:10px; height:40px; line-height:40px; font-size:16px; color:#333; font-weight:400; }
+.nex_count_Mythreads{  position:absolute;top:7px;right:0;}
+.nex_count_Mythreads span{ display:inline-block; padding-left:20px; margin-right: 10px;  line-height: 20px;  height: 20px;font-size: 12px;color:#bbb; }
+.nex_count_Mythreads span.views{ background:url(../bbs/view_po.png) left center no-repeat; background-size:16px; max-width: 26px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.nex_count_Mythreads span.replies{ background:url(../bbs/reply_po.png) left center no-repeat;background-size:16px;max-width: 26px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right:0;}
+.nex_vt_lvnid_list{ float:left; height:16px; line-height:16px; border:1px solid #F39A07; border-radius:2px;}
+.nex_vt_lvnid_list i{ float:left; width:22px; height:16px; background:#F39A07 url(../bbs/level_mark.png) 2px center no-repeat; background-size:10px; font-size:12px; color:#fff; line-height:16px; text-indent:12px; font-weight:500; }
+.nex_vt_lvnid_list span{ float:right; padding:0 5px; font-size:12px; color:#F39A07; height:16px; line-height:16px; background:#fff;}
+.nex_Putintops{ padding:15px 10px 5px 10px;}
+.nex_Putintops ul li{ height:20px; line-height:20px; border-bottom:1px dashed #eee;background:#fff; padding:0 0 10px 0px; margin-bottom:10px;}
+.nex_Putintops ul li:last-child{ margin-bottom:0;}
+.nex_Putintops ul li a{display:block;height:20px; line-height:20px;}
+.nex_Putintops ul li a em{ display:inline-block; float:left; background:url(../bbs/tag_struch.png) center no-repeat; background-size:48px 20px; color:#fff; padding-left:5px; width:43px;height:20px; line-height:20px; font-size:12px; text-align:center; }
+.nex_Putintops ul li a span{ display:inline-block; float:left; max-width:220px; height:20px; line-height:20px; font-size:14px; color:#333; margin-left:5px;   overflow:hidden;text-overflow:ellipsis; white-space:nowrap; }
+.nex_Putintops ul li a i{display:inline-block; float:right; height:20px; line-height:20px; font-size:12px; color:#999;}
+
+.nex_sortTypes{ line-height: 50px; padding:10px 15px; background: #fff;}
+.nex_sortTypes ul{}
+.nex_sortTypes ul li{ float:left; margin:8px 10px 8px 0; height:20px; line-height:20px;}
+.nex_sortTypes ul li a{ display:block; height:18px; line-height:18px; border:1px solid #ccc; border-radius:2px; color:#8C8F95; font-size:12px; padding:0 10px; position:relative;}
+.nex_sortTypes ul li.a{}
+.nex_sortTypes ul li.a a { border:1px solid #F39A07; color:#F39A07;}
+.nex_sortTypes ul li a span{ display:block; position:absolute; top:-10px; right:-5px; background:#ccc; color:#fff; font-size:12px; line-height:15px; padding:0 5px; height:15px; overflow:hidden; text-align:center; border-radius:2px;}
+.nex_sortTypes ul li.a a span{ background:#F39A07; color:#fff;}
+/*threadlist style*/
+.nex_threadlisttxt{ padding:10px; background:#fff; }
+.nex_threadlisttxt ul li{padding-bottom:15px; margin-bottom:15px; border-bottom:1px solid #eee;}
+.nex_threadlisttxt ul li a{}
+.nex_threadListNull{}
+.nex_threadList_top{ height:25px; line-height:25px;}
+.nex_threadList_author{ float:left; }
+.nex_threadList_authorAva{width:25px; height:25px; float:left; }
+.nex_threadList_authorAva img{ width:25px; height:25px; border-radius:100%;}
+.nex_threadList_authorName{ float:left; height:25px; line-height:25px; font-size:16px; color:#333; margin-left:10px;}
+.nex_threadList_authorGender{ float:left; margin-left:5px;}
+.nex_threadList_authorGender i{ display:block; width:16px; height:16px; margin-top:4.5px;}
+.nex_threadList_authorGender i.nex_thread_male{ background:url(../bbs/gender_male.png) center no-repeat; background-size:16px;}
+.nex_threadList_authorGender i.nex_thread_famale{ background:url(../bbs/gender_famale.png) center no-repeat; background-size:16px;}
+.nex_threadList_authorGender i.nex_thread_unidentity{ background:url(../bbs/gender_unidentity.png) center no-repeat; background-size:16px;}
+.nex_threadList_authorLevel{float:left; margin-left:5px; width:20px; height:22px; background:url(../bbs/nex_person_level.png) center no-repeat; background-size:20px; font-size:12px; color:#fff; text-align:center; font-weight:400; overflow:hidden; line-height:23px; margin-top:1.5px;}
+.nex_threadList_date{ height:25px; line-height:25px; float:right; font-size:12px; color:#999;}
+.nex_threadList_mid{ margin:10px 0;}
+.nex_threadList_mid h5{ margin-bottom:10px;}
+.nex_threadList_mid h5 em{ display:inline-block;height:17px; line-height:17px; padding:0 5px; border-radius:2px;  margin-right:5px;font-size:12px; color:#fff;}
+.nex_threadList_mid h5 em.threadAttrjh{ background:#FF9E57;}
+.nex_threadList_mid h5 em.nex_thread_poll{background:#82A6F5;}
+.nex_threadList_mid h5 em.nex_thread_trade{background:#FF6E97;}
+.nex_threadList_mid h5 em.nex_thread_reward{background:#F2753F;}
+.nex_threadList_mid h5 em.nex_nex_thread_activity{background:#ABC327;}
+.nex_threadList_mid h5 em.nex_thread_debate{background:#F29F3F;}
+.nex_threadList_mid span{ font-size:16px; color:#333; font-weight:400;}
+.nex_thread_nullsums{ height:40px; line-height:20px; overflow:hidden; margin-top:10px; font-size:12px; color:#999;}
+.nex_threadList_btmtop{ }
+.nex_threadList_btmtop span{ display:inline-block; float:left; padding:0 5px;height:16px; line-height:16px; margin:0 0 10px 0; border-radius:24px; background:#FCEDDC; font-size:12px; color:#F29F3F;}
+.nex_threadList_btmbtms{ height:16px; line-height:16px; margin-top:10px;}
+.nex_threadList_btmbtms dl{}
+.nex_threadList_btmbtms dl dd{ float:left; width:33%; height:16px; line-height:16px; text-align:center; }
+.nex_threadList_btmbtms dl dd i{ display:inline-block; width:16px; height:16px;}
+.nex_threadList_btmbtms dl dd span{ display:inline-block; height:16px; line-height:16px;font-size:14px; color:#666; margin-left:5px; position:relative; top:-2px;}
+.nex_threadList_btmbtms dl dd.nex_threadList_view{}
+.nex_threadList_btmbtms dl dd.nex_threadList_view i{ background:url(../bbs/forumlist/view.png) center no-repeat; background-size:18px;}
+.nex_threadList_btmbtms dl dd.nex_threadList_reply{ border-left:1px solid #eee; border-right:1px solid #eee;}
+.nex_threadList_btmbtms dl dd.nex_threadList_reply i{ background:url(../bbs/forumlist/reply.png) center no-repeat; background-size:16px;}
+.nex_threadList_btmbtms dl dd.nex_threadList_recommend{}
+.nex_threadList_btmbtms dl dd.nex_threadList_recommend i{background:url(../bbs/forumlist/good.png) center no-repeat; background-size:18px;}
+
+.nex_threadList_piclist{  width:100%; overflow:hidden;}
+.nex_threadList_picscrolls{ width:103%;}
+.nex_threadList_img_1{ width:97%; height:140px; margin-bottom:10px; border-radius:4px; overflow:hidden;}
+
+.nex_threadList_img_2{ width:47%; height:100px; float:left; margin:0 10px 10px 0;border-radius:4px; overflow:hidden;}
+.nex_threadList_img_3{ width:30.1%; height:100px; float:left; margin:0 10px 10px 0;border-radius:4px; overflow:hidden;}
+.nex_threadList_img_4{ width:47%; height:100px; float:left; margin:0 10px 10px 0;border-radius:4px; overflow:hidden;}
+.nex_threadList_img_5{ width:30.1%; height:100px; float:left; margin:0 10px 10px 0;border-radius:4px; overflow:hidden;}
+.nex_threadList_img_6{ width:30.1%; height:100px; float:left; margin:0 10px 10px 0;border-radius:4px; overflow:hidden;}
+
+.nex_thread_sums{height:20px; line-height:20px; overflow:hidden; margin-top:10px; font-size:12px; color:#999;}
+
+
+.nex_threadListNud_txt{padding: 5px 0; }
+.nex_threadListNud_txt h5{max-height:40px; line-height:20px; font-size:14px; color:#333; font-weight:500; overflow:hidden; margin-bottom:10px;}
+.nex_threadsums{ max-height:44px; line-height:22px; overflow:hidden; font-size:12px; color:#999; margin-bottom:8px;}
+
+.nex_forumbody{ background:#fff;}
+
+.nex_threadListTit a{}
+.nex_threadlist_wrap{ width:100%; height:250px; position:relative; overflow:hidden; border-radius:4px;}
+.nex_threadlist_outbox{ width:90%; height:48px; background:rgba(0, 123, 255,0.9); position:relative;padding:0 5%; z-index:2;}
+.nex_threadlist_outbox dl{ width:100%;}
+.nex_threadlist_outbox dl dd{ float:left; width:23%; padding:0 5%; overflow:hidden; text-align:center; font-size:12px; color:#fff; height:15px; line-height:15px; margin:16px 0; border-right:1px solid #fff;}
+.nex_threadlist_outbox dl dd.nex_last_iterms{ border-right:0;}
+.nex_threadauhor_avt{ width:30px; height:30px; border-radius:100%; padding:5px; background:rgba(0, 123, 255,0.8); position:relative; bottom:17px; margin:0 auto;}
+.nex_threadauhor_avt img{width:30px; height:30px; border-radius:100%;}
+.nex_bbs_threadmids{ margin:15px 0 0 0; line-height:25px; min-height:25px; padding: 0 15px 15px 15px;}
+.nex_bbs_threadmids h3.nex_threadSubject{ max-height:60px; margin:15px 0 15px 0; line-height: 30px; overflow:hidden; }
+.nex_bbs_threadmids h3.nex_threadSubject span{font-size: 18px; color:#333; font-weight:500;height: 20px; line-height: 20px;}
+.nex_bbs_threadmids h3.nex_threadSubject em.threadType{height: 20px; line-height: 20px; display: inline-block;float:left;  padding: 0 5px; background:#FFC69E; color: #fff; font-size: 12px;border-radius:2px; margin-right:10px;margin-top:6px;}
+.nex_bbs_threadmids h3.nex_threadSubject em.threadAttrjh{ height: 20px; line-height: 20px; display: inline-block; float:left; padding: 0 5px; background: #F39A07; color: #fff; font-size: 12px; border-radius:2px;margin-right:10px; margin-top:6px;}
+.nex_bbs_threadmids h3.nex_threadSubject em.nex_thread_poll{background:#FF8598!important;}
+.nex_bbs_threadmids h3.nex_threadSubject em.nex_thread_trade{background:#BDD684!important;}
+.nex_bbs_threadmids h3.nex_threadSubject em.nex_thread_reward{background:#FF7345!important;}
+.nex_bbs_threadmids h3.nex_threadSubject em.nex_nex_thread_activity{background:#FBD165!important;}
+.nex_bbs_threadmids h3.nex_threadSubject em.nex_thread_debate{background:#7EADFF!important;}
+.nex_threadscontents{ max-height:100px; line-height:25px; color:#888; font-weight:400; overflow:hidden; letter-spacing:1px; font-size:14px; margin-bottom:10px;}
+
+
+
+.category{ font-size:16px; color:#fff;left: 42%; top: 13px;}
+.category .name{ line-height:23px;}
+.nex_threadlisttxt li.noDate,.nex_threadlisttxt li.noData{ width:100%!important; margin-top:0; background:#fff url(../bbs/noDate.png) center no-repeat;}
+.nex_bbs_pagetops{ height:40px; line-height:40px; text-align:center; font-size:16px; color:#333; text-align:center; font-weight:400; letter-spacing:1px;}
+.threadlist li{ border-bottom:0;}
+
+.noDate, .noData{ font-size: 14px!important; padding: 15px 0!important;  width: 100%!important; min-height: 340px; line-height:100px;}
+.nex_threadnos{ font-size: 18px!important; padding: 15px 0!important;  width: 100%!important;}
+.nex_bbstopnav{ background:#F39A07; height:70px!important; line-height:70px; padding:0;}
+.nex_bbstopnav span.nex_category{ color:#fff; font-size:16px;height:70px; line-height:70px; overflow:hidden; margin: 0 auto; display: block; text-align: center;}
+.nex_bbstopnav_displaylist{ height:50px; width:100%;  background: #fff; border-bottom:1px solid #eee; position:fixed; z-index:222; }
+.nex_bbstopnav_displaylist a.nexback{width: 50px; height: 50px; line-height:50px; position:absolute; top:0; left:0; z-index:22;overflow: hidden;background:url(../bbs/back.png) center no-repeat;background-size: 15px!important;}
+.nex_bbstopnav_displaylist h3{ width:120px; height:50px; line-height:50px; text-align:center; overflow:hidden; margin:0 auto; font-size:16px; color:#555; font-weight:400;}
+.nex_postbbsbtn a{ display:block;width: 50px; height: 50px; line-height:50px; position:absolute; top:0; right:0; z-index:22;text-indent: 100px; overflow: hidden; color: #fff; font-size: 16px; background:url(../bbs/post.png) center no-repeat;background-size: 18px!important; }
+
+
+
+/*txt*/
+.nex_threadlisttxt{}
+.nex_threadlisttxt ul li h3.threadSubject{ max-height:50px; margin:10px 0 5px 0; line-height: 25px; overflow:hidden; }
+.nex_threadlisttxt ul li h3.threadSubject span{font-size: 18px; color:#333; font-weight:500;line-height: 20px;}
+.nex_threadlisttxt ul li h3.threadSubject em.threadType{height: 20px; line-height: 20px; display: inline-block;float:left;  padding: 0 5px; background:#FFC69E; color: #fff; font-size: 12px;border-radius:2px; margin-right:10px;}
+.nex_threadlisttxt ul li h3.threadSubject em.nex_thread_poll{background:#FF8598!important;}
+.nex_threadlisttxt ul li h3.threadSubject em.nex_thread_trade{background:#BDD684!important;}
+.nex_threadlisttxt ul li h3.threadSubject em.nex_thread_reward{background:#FF7345!important;}
+.nex_threadlisttxt ul li h3.threadSubject em.nex_nex_thread_activity{background:#FBD165!important;}
+.nex_threadlisttxt ul li h3.threadSubject em.nex_thread_debate{background:#7EADFF!important;}
+.nex_Guiderolls_terms{width: 100%;line-height: 20px;  height: 20px; margin:20px 0 5px 0; overflow: hidden;}
+.nex_Guiderolls_terms span{ display:inline-block;line-height: 20px;  height: 20px; margin:0 15px 0 0; padding-left:20px;font-size: 12px;color:#8C8F95;}
+.nex_Guiderolls_terms span.views{ background:url(../bbs/threadlist_view.png) left center no-repeat; background-size:16px; }
+.nex_Guiderolls_terms span.replies{ background:url(../bbs/threadlist_reply.png) left center no-repeat; background-size:13px;}
+.nex_Guiderolls_terms span.zans{background:url(../bbs/threadlist_zan.png) left center no-repeat; background-size:12px; }
+.nex_Guiderolls_terms span.dates{ background:url(../bbs/threadlist_clock.png) left center no-repeat; background-size:13px;}
+.nex_Guiderolls_terms span em{ color:#888; margin-right:3px; max-width: 30px; text-align: center; height: 15px; line-height: 15px; overflow: hidden;text-overflow:ellipsis; white-space:nowrap; }
+
+/*瀑布流开始*/
+.nexwaterfall{ display: block; position: relative;}
+.nex_column{ display: block; position: relative; width: 48%; float: left; padding: 0 2% 0 0; box-sizing: border-box;}
+.nexwateritems {display: block;margin: 0 0 10px 0; box-shadow: 3px 5px 14px #ddd;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-ms-transition:all 0.3s linear;transition:all 0.3s linear; overflow: hidden; position: relative; background:#fff;}
+.nex_threadlistpics{ overflow:hidden; padding:10px; width:auto;}
+.nex_threadlistpics ul{ width:106%;}
+.nexwateritems a{ padding:0;}
+.nex_threadlistpics ul li{ float:left;  width: 45.2%;  margin: 0 4% 4% 0; background:#fff; padding:0;-webkit-transition: all .7s ease-out .1s; -moz-transition: all .7s ease-out; -o-transition: all .7s ease-out .1s; transition: all .7s ease-out .1s; position:relative; overflow:hidden;}
+.nex_water_botm{ padding:0 10px 10px 10px;}
+.nex_column h5.threadSubject{ line-height: 25px; margin-bottom:5px; overflow:hidden; font-size:14px;font-weight: 500; }
+.nex_column h5.threadSubject span{ display:block;font-size: 14px; line-height: 35px; font-weight: 400;height: 30px; color:#333; font-weight:400;overflow: hidden;}
+.nex_column h5 span.threadAttr{height: 20px; line-height: 20px; display: inline-block; padding: 0 5px; background:#F39A07; color: #fff; font-size: 12px;}
+.nex_column h5 span.threadAttrjh{ height: 20px; line-height: 20px; display: inline-block; padding: 0 5px; background: #F39A07 color: #fff; font-size: 12px;}
+.nex_water_tails{ height:18px; line-height:18px; overflow:hidden;}
+.nex_water_tails span{ font-size:12px; color:#999; margin-right:10px; display:inline-block; padding-left:22px;}
+.nex_water_tails span.nex_wt_view{ background:url(../bbs/view_po.png) left center no-repeat; background-size:14px;}
+.nex_water_tails span.nex_wt_reply{ background:url(../bbs/reply_po.png) left center no-repeat; background-size:14px;}
+
+
+
+.nex_waterfallpic{ width:100%; height:40%; position:relative;}
+.nex_waterfallpic span.nopic{ display:block; width:100%; min-height:100px; background:url(../bbs/nophototiny.png) center no-repeat;}
+.nex_waterfallpic em{ display:block; width:51px; height:20px; line-height:20px; font-size:12px; color:#fff; background:rgba(0,0,0,0.4) url(../bbs/photo.png) 5px center no-repeat; background-size:14px; position:absolute; right:0; top:0; text-indent:22px; border-radius:0 4px 0 0;}
+.nex_waterfallpic img{ width:100%; height:auto; border-radius:4px 4px 0 0;}
+.nex_wfinfosd{overflow:hidden;}
+.nex_forumavat{padding:5px 10px 10px 10px; height:20px;}
+.nex_bbszza{width: 20px; height:20px; border-radius: 50%; overflow: hidden; float: left; margin-right:10px;}
+.nex_bbszza img{width: 20px;  height: 20px; border-radius:100%;}
+.nex_forumavat span{font-size: 12px; line-height:20px; height:20px; overflow:hidden; display:block; max-width:50px;text-overflow:ellipsis; white-space:nowrap;  color: #666; float:left;}
+.nex_forumavat span.nex_datelines{font-size: 12px; color: #8C8F95; line-height: 16px; display:block;}
+.nex_wfinfosd em{ display:inline-block; padding-left:25px; float:right; line-height: 20px;  height: 20px;font-size: 12px; color:#8C8F95;}
+.nex_wfinfosd em.nex_view{ background:url(../bbs/view.png) left center no-repeat; background-size:20px;}
+
+/*sort_types*/
+.nex_line_Ups{ padding:0px 10px; background:#fff; margin-bottom:5px; }
+.nex_line_Ups_inters{white-space: nowrap; overflow-y: hidden; width:100%; background:#fff;}
+.nex_sort{ padding:10px 0; }
+.nex_Dunts{ clear:both; margin-bottom:10px;}
+.subtsm{ padding:10px 10px 0 10px; background:#fcfcfc;}
+.nex_sort span{ float:left; display:block; margin-right:10px; padding:0 3px 0 0; font-size:12px; }
+.nex_sort span.nex_option_title{ height:30px; line-height:30px;}
+.nex_sort span a{ font-size:12px;color:#F39A07;font-weight:600;}
+.nex_sort li{ float:left; margin:0 10px 10px 0;}
+.nex_sort li a{color:#666; font-size:12px;}
+.nex_sort li.a a{ color:#F39A07; font-weight:500;}
+
+.nex_FenLei_List{ padding:10px; overflow:hidden;}
+.nex_FenLei_List ul{ width:105%; }
+.nex_FenLei_List ul li{margin:0 3% 3% 0; width:46%; float:left;}
+.nex_FenLei_List ul li a{ display:block; background:#fff;}
+
+.nex_video_tops{}
+.nex_video_tops a{ display:block; width:100%; height:120px; overflow:hidden; position:relative; border-radius:4px 4px 0 0;}
+.nex_video_outer{ width:100%; height:120px; position:absolute; top:0; left:0; border-radius:4px 4px 0 0;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;-ms-transition:all 0.2s linear;transition:all 0.2s linear; }
+.nex_video_outer i{ display:none; width:20px; height:23px; background:url(../fenlei/list_play.png) center no-repeat; position:absolute; top:56px; left:94.5px;-webkit-transition:all 0.6s linear;-moz-transition:all 0.6s linear;-o-transition:all 0.6s linear;-ms-transition:all 0.6s linear;transition:all 0.6s linear; }
+.nex_video_outer:hover i{-webkit-transform:rotate(120deg); -moz-transform:rotate(120deg); -o-transform:rotate(120deg); -ms-transform:rotate(120deg);transform:rotate(120deg);}
+.nex_video_outer em{ display:block; height:20px; line-height:20px; padding:0 6px;background:rgba(0,0,0,0.5);  font-size:12px; color:#fff; position:absolute; right:5px; bottom:5px; border-radius:4px;}
+.nex_video_iner{}
+.nex_video_iner img{width:100%; height:120px; border-radius:4px 4px 0 0;}
+
+.nex_video_btms{ height:60px; overflow:hidden; width:90%; position:relative; background:#fff; padding:10px 5% 5px 5%;}
+.nex_video_btms h5{ height:22px; line-height:22px; margin:0 0 12px 0; overflow:hidden; -webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;-ms-transition:all 0.3s linear;transition:all 0.3s linear;}
+.nex_video_btms h5 a{font-size:14px; color:#333; font-weight:400;}
+.nex_video_btms h5 a:hover{ color:#F39A07;}
+.nex_video_Lists ul li:hover .nex_video_btms h5{ height:44px;}
+.nex_video_launch{ width:100%; position:relative;  bottom:0;height:20px; line-height:20px; background:#fff;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-o-transition:all 0.2s linear;-ms-transition:all 0.2s linear;transition:all 0.2s linear; }
+.nex_video_upers{ float:left; width:45%;height:20px; line-height: 20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.nex_video_upers img{ display:block; float:left; width:20px; height:20px; border-radius:100%;margin-right:5px;}
+.nex_video_upers span{ display:block; float:left; max-width:40px; height:20px; line-height:20px; font-size:12px; color:#666; margin-left:6px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.nex_video_details{ float:right;}
+.nex_video_details span{ display:block; float:left; height:20px; line-height:20px; font-size:12px; color:#999; padding-left:22px;}
+.nex_video_details span.nex_video_views{max-width: 23%;height: 20px;line-height: 20px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background:url(../fenlei/list_view.png) left center no-repeat; background-size:14px;}
+.nex_video_details span.nex_video_replies{ margin-left:3%;background:url(../fenlei/list_reply.png) left center no-repeat; background-size:14px;}
+.nex_video_Lists ul li:hover .nex_video_launch{ bottom:-40px;}
+
+
+
+.nex_fanju_thumb_img{width:100%; height:22em;}
+.nex_fanju_thumb_img a{ display:block;width:100%; height:100%; position:relative; overflow:hidden;}
+.nex_fanju_thumb_img a img{width:100%; height:100%; transition:all 0.3s linear; }
+.nex_fanju_thumb_img a:hover img{ transform: scale(1.1);}
+.nex_fanju_thumb_stats{width:75%; position: absolute; bottom: 0; right: 0; padding: 15px 5% 15px 20%; font-size: 13px; height: 15px; line-height: 15px; color: #fff; background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.4));}
+.nex_fanju_thumb_stats:after{ display:block; width:15px; height:15px; content:''; background:url(../fanju/heat.png) left center no-repeat; position:absolute; top:16px; left:10px;}
+.nex_fanju_infomat{ background:#fff; padding:10px;}
+.nex_fanju_infomat h5{ height:20px; line-height:20px; overflow:hidden; margin-bottom:5px;}
+.nex_fanju_infomat h5 a{ font-size:14px; color:#333; font-weight:500;}
+.nex_fanju_infomat h5 a:hover{color: #F39A07;}
+.nex_fanju_infomat p{ height:20px; line-height:20px; overflow:hidden; font-size:12px; color:#999;}
+
+.nex_FenLei_List ul li.nex_music_so{ float:left; width:46%; margin:0 4% 4% 0;}
+.nex_music_solo_cover{}
+.nex_music_solo_cover a{ display:block; width:100%; height:15em; position:relative; border-radius:6px 6px 0 0;}
+.nex_music_solo_cover a:after{ display:none; content:''; position:absolute; top:31px; left:32px; width:110px; height:110px; background:url(../music/cd.png) center no-repeat;transition:all 0.5s linear; z-index:-1;}
+.nex_music_solo_cover a:hover:after{ left:85px;transform:rotate(99999deg);}
+.nex_music_si{width:100%; height:15em; border-radius:6px 6px 0 0;}
+.nex_music_solo_cover a span.nex_music_solo_playicon{ display:block; width:30px; height:30px; position:absolute; top:72px; left:72px; background:url(../music/music_cover.png) center no-repeat; opacity: 0; filter: alpha(opacity=0); -webkit-transform: scale(2); -ms-transform: scale(2);  -o-transform: scale(2); transform: scale(2); -webkit-transition: all .25s ease-out; -ms-transition: all ease-out .25s; -o-transition: all ease-out .25s;  transition: all .25s ease-out;}
+.nex_music_solo_cover a span.nex_music_solo_length{ display:block;position: absolute; right: 5px; bottom: 5px; padding: 0 10px; height: 20px; line-height: 20px; text-align: center; color: #fff; font-size: 12px; border-radius:4px; background-color: rgba(0,0,0,.5);}
+.nex_music_solo_cover a:hover span.nex_music_solo_playicon{z-index: 1; opacity: 1; filter: alpha(opacity=100); -webkit-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+.nex_music_solo_videolist_mask{ width:100%; height:100%; position: absolute; left: 0; top: 0;border-radius:6px;}
+.nex_music_solo_cover a:hover .nex_music_solo_videolist_mask{background:rgba(0,0,0,0.3); }
+.nex_music_solo_info{  padding:10px; background:#fff;}
+.nex_music_solo_info h5{ height:40px; line-height:20px; overflow:hidden; margin-bottom:6px;}
+.nex_music_solo_info h5 a{font-size:12px; color:#333; font-weight:500;}
+.nex_music_solo_info h5 a:hover{ color:#F39A07;}
+.nex_music_solo_infobtm{ height:15px; line-height:15px; overflow:hidden;}
+.nex_music_solo_infobtm span{ display:block; float:left; margin-right:25px; font-size:12px; color:#999; padding-left:22px; background:url(../music/views.png) left center no-repeat; background-size:15px;}
+.nex_music_solo_infobtm em{ display:block; float:left; font-size:12px; color:#999; padding-left:22px; background:url(../music/replies.png) left center no-repeat; background-size:15px;}
+
+.nex_FenLei_List ul li.nex_music_ao{ float:left; width:46%; margin:0 4% 4% 0;}
+.nex_FenLei_List ul li.nex_music_ao a{ background:none!important;}
+.nex_music_ablum_cover{}
+.nex_music_ablum_cover a{ display:block; background:url(../music/album_cover.png) center no-repeat; width:100%; height:15em; overflow:hidden;border-radius:8px ; position:relative;}
+.nex_music_ablum_thumb{ width:100%; height:15em; position:absolute; top:1px; left:1px; border-radius:8px; }
+.nex_music_ablum_cover a p{position: absolute; bottom: 0px; left:0; width: 90%; height: 34px; padding: 5% 5% 0; border-radius: 0 0 8px 8px; background: linear-gradient(180deg,transparent,rgba(0,0,0,.8)); color: #fff; line-height: 16px; }
+.nex_music_ablum_cover a p span{ display:block;position: absolute; bottom:8px; right:10px; font-size:12px; color:#fff; background:url(../music/music.png) left center no-repeat; background-size:15px; padding-left:20px;}
+.nex_music_ablum_name{ margin-top:6px; height:40px; line-height:20px; overflow:hidden;}
+.nex_music_ablum_name a{ font-size:12px; color:#333;}
+.nex_music_ablum_name a:hover{ color:#F39A07;}
+.nex_music_ablum_plays{ height:20px; line-height:20px; overflow:hidden; font-size:12px; color:#999;}
+
+
+.nex_search_sortform{ height:30px; line-height:30px; margin-bottom:10px;}
+.nex_search_sortform select{ border:1px solid #eee; width:100%; height:30px; line-height:30px; font-size:12px; color:#666; padding:0 10px 0 5px;}
+.nex_sortsearch_enter{ border:0; background:#F39A07; color:#fff; padding:0 10px; font-size:12px; color:#fff; height:25px; line-height:25px;}
+.nex_Forum_title{ height:25px; width:100%; position:relative; margin-bottom:30px;}
+.nex_Forum_title span{ display:inline-block; height:25px; line-height:25px; font-size:16px; color:#333; font-weight:500; letter-spacing:2px;}
+.nex_Forum_title em{ display:block; width:56px; height:2px; border-radius:2px; background:#F39A07; position:absolute;}
+.nex_Forum_title em.nex_Forumt_line1{ left:0; top:30px;}
+.nex_Forum_title em.nex_Forumt_line2{ left:15px; top:35px;}
+
+

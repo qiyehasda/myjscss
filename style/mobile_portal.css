@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+.st-pusher{ background:#fff!important;}
+.nex_bg_cl{ background:#ffff!important;}
+.nex_rolltoptop{}
+.nex_rolltoptop a{ display:block; width:45px; height:45px; border-radius:4px; background:#F39A07 url(../index/roll_back.png) center no-repeat; background-size:28px; position:fixed; right:2%; bottom:10%; z-index:222;}
+/*slide*/
+.nex_index_focus{ width:100%; height:160px;position:relative; overflow:hidden;}
+.nex_index_focus .hd{ width:95%; height:11px;  position:absolute; z-index:1; bottom:16px; right:5%; text-align:right;  }
+.nex_index_focus .hd ul{ display:inline-block;}
+.nex_index_focus .hd ul li{ display:inline-block; width:8px; height:8px; border-radius:100%; border:1px solid #fff; margin:0 3px;  vertical-align:top; overflow:hidden; line-height:200px;  }
+.nex_index_focus .hd ul .on{ background:#F39A07; }
+.nex_index_focus .bd{ position:relative; z-index:0; }
+.nex_index_focus .bd a{ display:block; width:100%; height:160px; position:relative; overflow:hidden;}
+.nex_index_focus .bd a img{width:100%; height:160px; }
+
+.nex_rollingpost{ margin:10px; height:40px; line-height:40px; overflow:hidden; padding-left:30px; background:url(../index/roll.png) left center no-repeat; background-size:22px;}
+.nex_rollingpost ul.nex_rollinginter{}
+.nex_rollingpost ul.nex_rollinginter li{height:40px; line-height:40px; overflow:hidden;}
+.nex_rollingpost ul.nex_rollinginter li a{ font-size:15px; color:#333; font-weight:500;}
+
+.nex_index_sort{ margin:10px; overflow:hidden;}
+.nex_index_sort ul{ width:103%;}
+.nex_index_sort ul li{ margin:0 2.5% 2.5% 0; width:47.2%;height:50px; float:left;}
+.nex_index_sort ul li.nex_sortranks{ margin:0 0 10px 0; width:97%; height:100px; overflow:hidden;border-radius:6px; }
+.nex_index_sort ul li.nex_sortranks a{display:block; width:100%; height:100px; overflow:hidden; }
+.nex_index_sort ul li a{ display:block; width:100%; height:50px; overflow:hidden; border-radius:6px;}
+.nex_index_sort ul li.nex_sortphoto a{ background:url(../index/ciyo_photo.png) center no-repeat; background-size:cover;}
+.nex_index_sort ul li.nex_sorttypes a{ background:url(../index/ciyo_type.png) center no-repeat; background-size:cover;}
+.nex_index_sort ul li.nex_sortdms a{ background:url(../index/ciyo_dm.png) center no-repeat; background-size:cover;}
+.nex_index_sort ul li.nex_sortcomics a{ background:url(../index/ciyo_comics.png) center no-repeat; background-size:cover;}
+.nex_index_sort ul li.nex_sortranks a{background:url(../index/ciyo_rankinglist.png) center no-repeat; background-size:cover;}
+.nex_index_sort ul li.nex_sortmusic{ margin:0 0 10px 0; width:97%; height:100px; overflow:hidden;border-radius:6px; }
+.nex_index_sort ul li.nex_sortmusic a{display:block; width:100%; height:100px; overflow:hidden; }
+.nex_index_sort ul li.nex_sortmusic a{background:url(../index/ciyo_rankingmusic.png) center no-repeat; background-size:cover;}
+
+.nex_index_mainspares{ padding:10px;}
+.nex_index_maintitle{ height:25px; line-height:25px; margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;}
+.nex_index_maintitle span{ font-size:18px; color:#333; font-weight:500; display:inline-block; padding-left:33px; float:left;}
+.nex_index_maintitle span.nex_maintitle_icon1{ background:url(../index/topic_category_idol.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon2{ background:url(../index/topic_affair_icon.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon3{ background:url(../index/topic_category_group.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon4{ background:url(../index/topic_category_fair.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon5{ background:url(../index/topic_category_game.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon6{ background:url(../index/topic_category_funny.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon7{ background:url(../index/topic_category_hobby.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon8{ background:url(../index/topic_category_flim.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon9{ background:url(../index/topic_category_group.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle span.nex_maintitle_icon10{ background:url(../index/topic_category_comic.png) left center no-repeat; background-size:25px;}
+.nex_index_maintitle a{ display:block; float:right; height:20px; width:48px; line-height:20px; text-align:center; font-size:12px; color:#333; border-radius:24px; border:1px solid #eee; background:#fafafa; margin-top:2px;}
+.nex_index_maintitle ul{ float:right; margin-top:5px;}
+.nex_index_maintitle ul em{ float:left; display:inline-block;margin:0 8px;height:10px; margin-top:5px; width:1px; background:#999;}
+.nex_index_maintitle ul li{ float:left;  font-size:12px; color:#999; height:20px; line-height:20px;}
+.nex_index_maintitle ul li.cur{ color:#F39A07;}
+
+.nex_member_bd{ margin:10px; border-top:1px solid #eee; border-bottom:1px solid #eee; padding:15px 0;}
+.nex_member_bd h2{ width:151px; height:30px; margin:0 auto 25px;}
+.nex_member_bd h2 img{width:151px; height:30px; }
+.nex_member_bd ul{ margin:0 auto;}
+.nex_member_bd ul li{ float:left; width:24%; padding:0 3%;}
+.nex_member_bd ul li.nex_member_mid{ width:33%; border-left:1px solid #eee; border-right:1px solid #eee;}
+.nex_member_bd ul li a{ display:block;}
+.nex_crown_member{ width:60px; height:63px; margin:0 auto; background:url(../index/rank_jin_icon.png) center no-repeat; position:relative; z-index:2;}
+.nex_crown_member img{ width: 40px; height: 40px; border-radius: 24px; position: relative; z-index: 1; top: 11px; left: 10px;}
+.nex_member_bd ul li a h5{ height:30px; line-height:30px; text-align:center; font-size:14px; color:#333; font-weight:500; overflow:hidden;}
+.nex_silver_member{ width:60px; height:64px;margin:0 auto; background:url(../index/rank_yin_icon.png) center no-repeat; position:relative; z-index:2;}
+.nex_silver_member img{ width: 40px; height: 40px; border-radius: 24px; position: relative; z-index: 1; top: 11px; left: 10px;}
+.nex_broze_member{ width:61px; height:64px; margin:0 auto;background:url(../index/rank_tong_icon.png) center no-repeat; position:relative; z-index:2;}
+.nex_broze_member img{ width: 40px; height: 40px; border-radius: 24px; position: relative; z-index: 1; top: 11px; left: 10px;}
+.nex_member_btms{ text-align:center;}
+.nex_member_btms_solo{margin: 0 auto; width: 50px; overflow:hidden; padding-left: 15px; background:url(../index/pub_ic24_time.png) 20% center no-repeat; background-size:15px;}
+.nex_member_btms span{ font-size:12px; color:#999; margin:0 5px; padding-left:22px;}
+.nex_member_btms span.nex_member_score{background:url(../index/pub_ic24_time.png) left center no-repeat; background-size:15px;}
+.nex_member_btms span.nex_member_threads{background:url(../index/pub_ic24_fire.png) left center no-repeat; background-size:15px;}
+
+.nex_zixunlist{}
+.nex_zixunlist ul li{ border-bottom:1px solid #eee; padding-bottom:15px; margin-bottom:15px;}
+.nex_zixunlist ul li:last-child{ border-bottom:0; padding-bottom:0; margin-bottom:0px;}
+.nex_zixunlist ul li a{ display:block;}
+.nex_zxtops{ line-height:22px; font-size:14px; color:#333; font-weight:500; margin-bottom:10px;}
+.nex_zxtops em{ display:inline-block; padding:0 4px; height:16px; line-height:16px; margin-top:2px; font-size:12px;  border-radius:4px; float:left; margin-right:8px;}
+.nex_zxtops em.nex_bgcl1{ border:1px solid #FF4A57; color:#FF4A57; background:#FFDEE0;}
+.nex_zxtops em.nex_bgcl2{ border:1px solid #FF9600; color:#FF9600; background:#FFEBD0;}
+.nex_zxtops em.nex_bgcl3{ border:1px solid #FBC000; color:#FBC000; background:#FEF3D0;}
+.nex_zxtops em.nex_bgcl4{ border:1px solid #E9AE6A; color:#E9AE6A; background:#FBF0E3;}
+.nex_zxtops em.nex_bgcl5{ border:1px solid #13DF83; color:#13DF83; background:#D4F9E8;}
+.nex_zxbtms{}
+.nex_zxbtmpic{ float:left; width:110px; height:70px; position:relative;}
+.nex_zxbtmpic i{ display:block; width:30px; height:30px; position:absolute; top:0; left:0;}
+.nex_zxbtmpic i.nex_zxnum1{ background:url(../index/banana_rank_no1.png) center no-repeat; background-size:30px;}
+.nex_zxbtmpic i.nex_zxnum2{ background:url(../index/banana_rank_no2.png) center no-repeat; background-size:30px;}
+.nex_zxbtmpic i.nex_zxnum3{ background:url(../index/banana_rank_no3.png) center no-repeat; background-size:30px;}
+.nex_zxbtmpic img{width:110px; height:70px; border-radius:4px;}
+.nex_zxbtminfos{ padding-left:120px;}
+.nex_zxsums{ height:38px; line-height:19px; font-size:12px; color:#666; overflow:hidden; margin-bottom:15px;}
+.nex_zxbtyui{ height:20px; line-height:20px; font-size:12px; color:#999; padding-left:22px; background:url(../index/nex_ups.png) left center no-repeat; background-size:17px;}
+
+
+.nex_mustsee{}
+.nex_mustsee ul{ width:103%;}
+.nex_mustsee ul li{ float:left; width:47.5%; margin:0 2.5% 2.5% 0;}
+.nex_mustsee ul li a{ display:block; }
+.nex_mustsee_large{ width:100%; height:105px; overflow:hidden; border-radius:4px; position:relative;}
+.nex_mustsee_large img{ width:100%; height:105px;}
+.nex_mustsee_inters{ padding:0 5%; width:90%; height:30px; line-height:30px; background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.6) 100%); position:absolute; bottom:0; left:0; border-radius:0 0 4px 4px;}
+.nex_mustsee_inters span{ display:inline-block; margin-right:15px; font-size:12px; color:#fff; height:30px; line-height:30px;}
+.nex_mustsee_inters span.nex_mustsee_view{ background:url(../index/icon_video_plays.png) left center no-repeat; background-size:16px;padding-left:25px; }
+.nex_mustsee_inters span.nex_mustsee_reply{ background:url(../index/icon_video_danmus.png) left center no-repeat; background-size:16px;padding-left:25px; }
+.nex_mustsee_btms{}
+.nex_mustsee_btms h5{ height:38px; line-height:19px; overflow:hidden; margin:8px 0 10px 0; font-size:14px; color:#333; font-weight:500;}
+
+.nex_indexads{ margin:0 10px 15px 10px;  height:122px;overflow:hidden;}
+.nex_indexads img{ border-radius:4px;width:100%; height:122px;}
+
+.nex_common_videos{}
+.nex_common_videos ul{ width:103%;}
+.nex_common_videos ul li{ margin-bottom:15px; }
+.nex_big_videokj{ margin-bottom:15px; width:97%;}
+.nex_big_videokj a{ display:block; }
+.nex_big_videokj_large{ width:100%; height:165px; overflow:hidden; border-radius:4px; position:relative;}
+.nex_big_videokj_large img{ width:100%; height:165px;}
+.nex_big_videokj_inters{ padding:0 5%; width:90%; height:30px; line-height:30px; background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.6) 100%); position:absolute; bottom:0; left:0; border-radius:0 0 4px 4px;}
+.nex_big_videokj_inters span{ display:inline-block; margin-right:15px; font-size:12px; color:#fff; height:30px; line-height:30px;}
+.nex_big_videokj_inters span.nex_mustsee_view{ background:url(../index/icon_video_plays.png) left center no-repeat; background-size:16px;padding-left:25px; }
+.nex_big_videokj_inters span.nex_mustsee_reply{ background:url(../index/icon_video_danmus.png) left center no-repeat; background-size:16px;padding-left:25px; }
+.nex_big_videokj_btms{ margin:8px 0 10px 0; }
+.nex_big_videokj_btms h5{ max-height:38px; line-height:19px; overflow:hidden;font-size:14px; color:#333; font-weight:500;}
+.nex_common_videos ul li.nex_small_videokj{float:left;width:47.5%; margin:0 2.5% 2.5% 0;}
+.nex_morefuncs{ margin:8px 0; height:22px; line-height:22px; overflow:hidden;}
+.nex_upers{ float:left;}
+.nex_upers img{ display:inline-block; width:22px; height:22px; float:left; border-radius:100%;}
+.nex_upers span{ display:inline-block; float:left; margin-left:10px; height:22px; line-height:22px; font-size:12px; color:#666;}
+.nex_uperdate{ float:right; padding-left:20px; font-size:12px; color:#999; height:22px; line-height:22px; background:url(../index/icon_video_dates.png) left center no-repeat; background-size:14px;}
+
+.nex_comicsbox{}
+.nex_comicsbox ul li,.nex_coserpiv ul li{ display:none;}
+.nex_cosplaylist{}
+.nex_cosplaylist dl{ width:103%;}
+.nex_cosplaylist dl dd{float:left; width:47.5%; margin:0 2.5% 2.5% 0;}
+.nex_cosplaylist dl dd a{ display:block; width:100%; height:240px;border-radius:4px; position:relative;}
+.nex_coserpicsd{ width:100%; height:240px; overflow:hidden; position:relative;border-radius:4px; }
+.nex_coserpicsd img{ width:100%; height:100%; position:absolute; top:0; left:0; border-radius:4px;}
+.nex_coserbtms{ padding: 8px 6%; width:88%; height:20px; line-height:20px;background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.6) 100%); position:absolute; bottom:0; left:0; border-radius:0 0 4px 4px;}
+.nex_coserbtmsl{ float:left;}
+.nex_coserbtmsl img{ display:block; float:left; width:20px; height:20px; border-radius:100%;}
+.nex_coserbtmsl span{ display:block; float:left; max-width:50px; overflow:hidden;text-overflow:ellipsis; white-space:nowrap;  margin-left:10px; height:20px; line-height:20px; font-size:12px; color:#fff;}
+.nex_coserbtmsr{ float:right; height:20px; line-height:20px; font-size:12px; color:#fff; padding-left:22px; background:url(../index/ic_home_item_video_views.png) left center no-repeat; background-size:15px;}
+
+.nex_comicsbox{ }
+.nex_comics_box{}
+.nex_comics_box dl{width:103%;}
+.nex_comics_box dl dd{float:left; width:47.5%; margin:0 2.5% 2.5% 0;}
+.nex_comics_box dl dd a{ display:block; width:100%; position:relative;}
+.nex_comicspics{ width:100%; height:240px;}
+.nex_comicspics img{width:100%; height:240px;border-radius:4px; }
+.nex_comic_bds{ margin-top:10px;}
+.nex_comic_bds h5{ height:38px; line-height:19px; overflow:hidden; margin-bottom:5px; font-size:12px; color:#333; font-weight:500;}
+.nex_comics_details{ height:20px; line-height:20px; overflow:hidden;}
+.nex_uploader{ float:left; max-width:80px; padding-left:22px; height:20px; line-height:20px; font-size:12px; color:#666; overflow:hidden;text-overflow:ellipsis; white-space:nowrap;  background:url(../index/upload.png) left center no-repeat; background-size:15px;}
+.nex_uploadnums{ float:right; text-align:right; max-width:60px; padding-left:22px; height:20px; line-height:20px; font-size:12px; color:#999; background:url(../index/ic_fire.png) left center no-repeat; background-size:15px;}
+
+.nex_links{}
+.nex_links ul{}
+.nex_links ul li{ float:left; margin:0 10px 15px 0;}
+.nex_links ul li a{ display:block; height:18px; line-height:18px; padding:0 10px; border:1px solid #eee; border-radius:4px; font-size:12px; color:#333; font-weight:300; background:#fafafa;}
+
+.nex_footer{ margin-top:10px;}
