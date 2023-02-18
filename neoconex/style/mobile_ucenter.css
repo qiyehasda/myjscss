@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+/*用户资料*/
+.nex_personal_setting a{ background:url(../ucenter/setting.png) center no-repeat!important; background-size:30px!important;}
+.nex_u_center_Top{ width:100%;height: 300px; background:url(../ucenter/userbg.jpg) center no-repeat;position: relative; background-size:cover;}
+.nex_user_Avatar{ width:70%; margin:25px auto 5px; text-align:center;}
+.nex_user_moditory{ position:relative; top:45px;}
+.nex_user_followers{ width:50px; height:50px; background:rgba(255,255,255,0.8); border-radius:100%; margin:0 auto; position:relative; top:30px;}
+.nex_user_followers i{ display:block; width:20px; height:20px; background:url(../ucenter/heart.png) no-repeat; background-size:20px; margin:0 auto; position:relative; top:6px;}
+.nex_user_followers em{display:block; width:25px; height:20px; line-height:20px; font-size:12px; color:#0272F7; text-align:center; overflow:hidden; margin:0 auto;position:relative; top:5px; font-weight:500;}
+.nex_user_moditory h5{ height:35px; line-height:35px; margin-bottom:10px; font-size:24px; color:#fff; font-weight:500; overflow:hidden; text-align:center;}
+.nex_user_moditory h5 span{ font-size:14px; color:#fff; margin-left:10px;}
+.nex_uc_infos{ text-align:center; height:20px; line-height:20px; overflow:hidden; font-size:14px; color:#fff;}
+.nex_uc_infos span{ padding:0 5px;}
+
+.nex_user_Avatarcenter{width:80px; height:80px; margin:25px auto; padding:5px; background:#fff; border-radius:100%;}
+.nex_user_Avatarcenter img{ width:80px; height:80px; margin:0 auto; border-radius:100%;}
+.nex_user_intros{ padding:10px 20px 20px; background:#fff; text-align:center;}
+.nex_user_intros p{max-height:50px; line-height:25px; overflow:hidden; font-size:14px; color:#333;}
+
+.nex_myinfo_list{overflow: hidden;width: 100%; background:#fff; padding-top:40px;}
+.nex_myinfo_list ul{ height: 22px; display:table; margin: 15px auto;}
+.nex_myinfo_list ul li{ display:inline-block; width:110px;height: 22px; line-height:22px; overflow:hidden; float:left;font-size:14px; color:#666; font-weight:400;}
+.nex_myinfo_list ul li.nex_myinfo_list_scores{ text-align:right;}
+.nex_myinfo_list ul li.nex_myinfo_list_money{ text-align:left;}
+.nex_myinfo_list ul em{ margin:5px 45px 0 45px; display:block; float:left; width:1px; height:15px; background:#ccc; float:left;}
+.nex_myinfo_list ul li span{color:#8C8F95;font-weight:400;}
+
+.nex_user_Spot{ padding:20px 15px 10px 15px; background:#fff; margin:10px 0;}
+.nex_user_Spot ul li{ float:left; width:25%; position:relative;}
+.nex_user_Spot ul li a{ display:block; width:100%;}
+.nex_user_Spot ul li a i{ display:block; width:35px; height:35px; margin:0 auto 5px;}
+.nex_user_Spot ul li a span{display:block; width:100%; text-align:center; height:30px; line-height:30px; overflow:hidden;font-size:16px; color:#333; font-weight:400;}
+.nex_user_Spot ul li.nex_zhuti{ }
+.nex_user_Spot ul li.nex_zhuti a i{ background:url(../ucenter/thread.png) left center no-repeat; background-size:35px;}
+
+.nex_user_Spot ul li.nex_shoucang{ }
+.nex_user_Spot ul li.nex_shoucang a i{ background:url(../ucenter/favourite.png) left center no-repeat; background-size:35px;}
+.nex_user_Spot ul li.nex_xiaoxi{}
+.nex_user_Spot ul li.nex_xiaoxi a i{background:url(../ucenter/notice.png) left center no-repeat; background-size:35px;}
+.nex_user_Spot ul li.nex_user_MyFriends{ border-bottom:0;}
+.nex_user_Spot ul li.nex_user_MyFriends a i{background:url(../ucenter/myfriends.png) left center no-repeat; background-size:35px;}
+
+.nex_user_Profile{ padding:15px 15px; background:#fff;}
+.nex_user_Profile ul{ border-bottom:1px dashed #eee;}
+.nex_user_Profile ul li{ height:40px; line-height:40px; overflow:hidden; font-size:14px; color:#455950; text-align:right;}
+.nex_user_Profile ul li em{ display:block;padding-right: 10px; float:left; color:#8C8F95;}
+.nex_IOlistbox{ padding:15px; background:#fff;}
+padding-bottom:10px;}
+
+.nex_user_quits{}
+.nex_user_quits a{ display:block; width:100%; height:40px; line-height:40px;background:#0272F7; font-size:14px; color:#fff; text-align:center; margin-top:20px;}
+
+.nex_uc_mylisttop{ width:100%; height:200px; position:relative; }
+.nex_uc_mylisttop i{ display:block; position:absolute; top:0; left:0; width:100%; height:200px;-webkit-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px); background:url(../ucenter/mythread_bg.jpg) center no-repeat; background-size:cover;}
+.nex_uc_mylisttopinter{ height:70px; width:100%; position:absolute; top:0; left:0; background:rgba(255,255,255,0.2);}
+.nex_uc_mylisttopinter a.nex_uc_mylisttop_back{ display:block; width:70px; height:70px; position:absolute; top:0; left:0; background:url(../ucenter/back.png) center no-repeat; background-size:30px;}
+.nex_uc_mylisttopinter span.nex_uc_mylisttop_txt{display:block;  width:100px; margin:0 auto; text-align:center; height:70px; line-height:70px; font-size:16px; color:#fff; font-weight:400;}
+.nex_UC_mylists{}
+.nex_UC_mylists ul li{}
+.nex_UC_mylists ul li a{ display:block;padding:15px; margin-bottom:10px; background:#fff;}
+.nex_UC_mylists_title{max-height:50px; margin:0 0 10px 0; line-height: 25px; overflow:hidden;}
+.nex_UC_mylists_title em{height: 20px; line-height: 20px; display: inline-block;float:left;  padding: 0 5px; background:#FFC69E; color: #fff; font-size: 12px;margin-right:10px;}
+.nex_UC_mylists_title em.nex_thread_poll{background:#FF8598!important;}
+.nex_UC_mylists_title em.nex_thread_trade{background:#BDD684!important;}
+.nex_UC_mylists_title em.nex_thread_reward{background:#B3DEA5!important;}
+.nex_UC_mylists_title em.nex_nex_thread_activity{background:#FBD165!important;}
+.nex_UC_mylists_title em.nex_thread_debate{background:#7EADFF!important;}
+.nex_UC_mylists_title em.threadAttrjh{ background:#FF5151!important; }
+.nex_UC_mylists_title em.nex_mythread_picfrom{ background:#0272F7!important; color:#fff;}
+.nex_UC_mylists_title span{font-size: 18px; color:#333; font-weight:500;height: 20px; line-height: 20px;}
+.nex_mythreadsums{ max-height:44px; line-height:22px; overflow:hidden; margin:10px 0; font-size:12px; color:#8C8F95;}
+.nex_mythread_btms{ height:20px; line-height:20px; overflow:hidden;}
+.nex_mythread_btmsl{ float:left; }
+.nex_mythread_btmsl span{ display:inline-block; margin-right:10px; height:18px; line-height:18px; padding:0 5px; background:#0272F7; font-size:12px; color:#fff;}
+.nex_mythread_btmsl em{ color:#0272F7;}
+.nex_mythread_btmsr{ float:right;}
+.nex_mythread_btmsr span{ font-size:12px; color:#8C8F95; margin-left:10px;}
+.nex_mythread_btmsr span em{ margin-right:3px;}
+.nex_mythread_picview{ width:100%; overflow:hidden; margin-bottom:10px;}
+.nex_pics_pl{ width:105%;}
+.nex_attachpic_one{ width:100%; min-height:200px; margin-bottom:10px;}
+.nex_attachpic_two{ width:47.3%; height:170px; margin:0 1% 0 0; float:left;}
+.nex_attachpic_three{width:31.8%; height:120px; margin:0 1% 1% 0; float:left;}
+.nex_attachpic_four{ width:47.3%; height:170px; margin:0 1% 1% 0; float:left;}
+
+#friend_ul{}
+#friend_ul ul li{ margin-bottom:10px; padding-bottom:10px; border-bottom:1px dashed #eee;}
+#tr_birthcity,#tr_residecity{ display:none;}
+.nex_user_tt{ display:block; height:30px; line-height:30px; margin-bottom:15px; font-size:16px; color:#333; border-bottom:1px solid #eee; padding-bottom:10px;}
+.nex_user_fr_axo{ float:left; width:40px; height:40px;}
+.nex_user_fr_axo a{ display:block; width:53px; height:40px; position:relative;}
+.nex_user_fr_axo a em{ display:block; padding:0 10px; height:16px; line-height:16px; font-size:12px; color:#fff; background:#f40; position:absolute; top:0; right:0; border-radius: 24px;}
+.nex_user_fr_axo img{ width:40px; line-height:40px; border-radius:100%;}
+.nex_user_fr_axr{ padding-left:55px;}
+.nex_user_fr_axr h4{ height:25px; line-height:25px; overflow:hidden;}
+.nex_user_fr_axr h4 a{ font-size:16px; color:#333;}
+.nex_user_fr_axr p{ font-size:12px; color:#8C8F95; height:16px; line-height:16px; overflow:hidden;}
+
+.nex_Setting_Profiles{ background:#fff; padding:15px;}
+.nex_Setting_Profiles h1{ display:none;}
+.nex_Setting_Profiles ul{ margin-bottom:20px;}
+.nex_Setting_Profiles ul li{ display:inline-block; margin:0 5px;}
+.nex_Setting_Profiles ul li a{ font-size:14px; color:#666;}
+.nex_Setting_Profiles ul li.a{}
+.nex_Setting_Profiles ul li.a a{ color:#0272F7;}
+#profilelist tr{ margin-bottom:10px; height:70px;}
+#profilelist tr th{ padding:0 10px 0 0;}
+#profilelist a{ display:none;}
+.nex_privacy{ margin-left:10px;}
+.nex_selescots{ width:77%;}
+#tr_idcardtype{}
+#th_idcardtype{ width:50px;}
+#bio,#interest{ width:77%;}

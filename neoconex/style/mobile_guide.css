@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+/*导读*/
+.nex_Guider_BD{ padding:10px;background:#fff!important;}
+.nex_Guide_mian{ width:100%; background:#fff;position:relative; }
+.nex_index_focus{ height:150px;position:relative; overflow:hidden; margin-bottom:20px;}
+.nex_index_focus .hd{ width:95%; height:11px;  position:absolute; z-index:1; bottom:10px; right:5%; text-align:right;  }
+.nex_index_focus .hd ul{ display:inline-block;}
+.nex_index_focus .hd ul li{ display:inline-block; width:8px; height:8px; border-radius:100%; border:1px solid #fff; margin:0 3px;  vertical-align:top; overflow:hidden; line-height:200px;  }
+.nex_index_focus .hd ul .on{ background:#F39A07; }
+.nex_index_focus .bd{ position:relative; z-index:0; }
+.nex_index_focus .bd a{ display:block; width:100%; height:150px; position:relative; overflow:hidden;}
+.nex_index_focus .bd a img{width:100%; height:150px; border-radius:4px; }
+
+.nex_bbs_pagetops{ height:40px; line-height:40px; text-align:center; font-size:16px; color:#333; text-align:center; font-weight:400; letter-spacing:1px;}
+.nex_Guidetop_select{ width:100%; margin:0 auto 20px; position:relative; height:25px; line-height:25px; padding:10px 0; border-radius:4px; background:#E8F2FE;}
+.nex_Guidetop_select ul{ display:table; margin:0 auto; width:100%;}
+.nex_Guidetop_select ul li{ float:left; width:25%; height:25px; line-height:25px; text-align:center;}
+.nex_Guidetop_select ul li.a{}
+.nex_Guidetop_select ul li a{ font-size:14px; color:#5EA5F9;}
+.nex_Guidetop_select ul li.a a{ color:#0272F7; }
+.nex_Guide_rolling{ background:#fff;}
+.nex_Guide_rolling ul li{  position: relative; margin-top:0!important;  border-bottom:1px solid #eee; background:#fff; margin-bottom:20px; padding-bottom:20px; }
+.nex_Guide_rolling ul li a{ display:block; width:100%; height:100%;}
+.nex_Guide_rolling ul li.nex_guide_type_main{}
+
+.nex_guide_top{ height:40px; margin-bottom:15px;}
+.nex_guide_author{ width:40px; height:40px; float:left; position:relative;}
+.nex_guide_author img{ width:40px; height:40px; border-radius:100%;}
+.nex_guide_author i{ display:block; width:16px; height:16px; position:absolute; bottom:0; right:0; }
+.nex_guide_author i.nex_guide_male{ background:url(../guide/gender_male.png) center no-repeat; background-size:16px;}
+.nex_guide_author i.nex_guide_famale{background:url(../guide/gender_famale.png) center no-repeat; background-size:16px;}
+.nex_guide_author i._unidentity{background:url(../guide/gender_unidentity.png) center no-repeat; background-size:16px;}
+.nex_guide_authorinfos{ padding-left:55px;}
+.nex_guide_name{ height:20px; line-height:20px; margin-bottom:5px; font-size:16px; color:#333; overflow:hidden;}
+.nex_Guide_userLevel{}
+.nex_Guide_userLevel span{ float:left; border:1px solid #FFC34C; border-radius:4px 0 4px 0; background:#FFF04C; padding:0 5px; display:inline-block; height:16px; line-height:16px; font-size:12px; color:#E87E51;}
+.nex_Guide_userLevel span em{ display:block; width:13px; height:13px; background:url(../guide/user_group.png) center no-repeat; background-size:12px; float:left; margin-right:3px;} 
+.nex_Guide_userLevel i{float:left; margin-left:5px; margin-top:-2px; display:inline-block; width:22px; height:22px; line-height:22px; font-size:12px; color:#E87E51; background:url(../guide/level.png) center no-repeat; background-size:22px; text-align:center; overflow:hidden;}
+.nex_guide_mid{}
+.nex_guide_mid h5{ margin-bottom:10px;}
+.nex_guide_mid h5 em{ display:inline-block;height:17px; line-height:17px; padding:0 5px; border-radius:2px;  margin-right:5px;font-size:12px; color:#fff;}
+.nex_guide_mid h5 em.threadAttrjh{ background:#FF9E57;}
+.nex_guide_mid h5 em.nex_thread_poll{background:#82A6F5;}
+.nex_guide_mid h5 em.nex_thread_trade{background:#FF6E97;}
+.nex_guide_mid h5 em.nex_thread_reward{background:#F2753F;}
+.nex_guide_mid h5 em.nex_nex_thread_activity{background:#ABC327;}
+.nex_guide_mid h5 em.nex_thread_debate{background:#F29F3F;}
+.nex_guide_mid h5 span{ font-size:16px; color:#333; font-weight:400;}
+.nex_guide_nullsums{max-height:40px; line-height:20px; overflow:hidden; font-size:12px; color:#999;}
+.nex_guide_btm{ height:22px; line-height:22px; margin-top:10px;}
+.nex_guide_datefrom{ float:left; height:22px; line-height:22px; font-size:14px; color:#999;}
+.nex_guide_datefrom em{ margin:0 3px;}
+.nex_guide_viewreply{ float:right;}
+.nex_guide_viewreply span{ display:inline-block; float:left; margin-left:15px; height:22px; line-height:22px; padding-left:26px; font-size:14px; color:#999;}
+.nex_guide_viewreply span.nex_guide_views{ background:url(../guide/guide_view.png) left center no-repeat; background-size:20px;}
+.nex_guide_viewreply span.nex_guide_replies{ background:url(../guide/guide_reply.png) left center no-repeat; background-size:18px;}
+
+.nex_guide_attpics{ margin:10px 0;}
+.nex_threadList_picscrolls{ width:103%; }
+.nex_threadList_img_1{ width:97%; height:140px; border-radius:4px; overflow:hidden;}
+.nex_threadList_img_2{ width:47%; height:100px; float:left; margin:0 10px 0 0;border-radius:4px; overflow:hidden;}
+.nex_threadList_img_3{ width:30.4%; height:100px; float:left; margin:0 10px 0 0;border-radius:4px; overflow:hidden;}
+.nex_threadList_img_4{ width:47%; height:100px; float:left; margin:0 10px 10px 0;border-radius:4px; overflow:hidden;}
+.nex_threadList_img_5{ width:30.4%; height:100px; float:left; margin:0 10px 10px 0;border-radius:4px; overflow:hidden;}
+.nex_threadList_img_6{ width:30.4%; height:100px; float:left; margin:0 10px 10px 0;border-radius:4px; overflow:hidden;}
+
+.nex_guide_replys{ margin-top:10px; padding:10px; background:#FDF6ED; border-radius:4px;}
+.nex_guide_replys h5{ height:20px; line-height:20px; font-size:12px; color:#F29F3F; margin-bottom:15px; padding-left:25px; background:url(../guide/replies.png) left center no-repeat; background-size:15px;}
+.nex_guide_replys dl{}
+.nex_guide_replys dl dd{  line-height:20px; margin-bottom:12px; }
+.nex_guide_replys dl dd:last-child{ margin-bottom:0;}
+.nex_guide_replys dl dd img{ display:block; width:20px; height:20px; float:left; border-radius:100%;}
+.nex_reply_name{ float:left; margin-left:8px;  font-size:12px; color:#F29F3F;}
+.nex_reply_cons{  margin-left:8px; line-height:20px;  font-size:12px; color:#999;}
+.nex_guide_replys p{ height:20px; line-height:20px; font-size:12px; color:#F29F3F; overflow:hidden; margin-top:10px;}
+
+
+
